@@ -1,0 +1,35 @@
+:root {
+  clr1: rgb(86, 5, 106);
+  clr2: rgb(72, 16, 128);
+}
+
+body {
+  background: rgb(141, 69, 182);
+  min-height: 100vh;
+}
+
+.login-page {
+  background-color: rgba(74, 216, 74, 0.133);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+
+  .login-form {
+    border: 1px solid rgb(36, 104, 150);
+    margin-top: 30vh;
+    padding: 20px;
+    box-shadow: -5px 5px 10px rgba(162, 69, 29, 0.133);
+  }
+
+  .input-fields {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+  }
+  .form-bottom {
+    margin-left: 2rem;
+  }
+  .text-end {
+    float: right;
+  }
+}

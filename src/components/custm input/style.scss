@@ -1,0 +1,19 @@
+.custom-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  input {
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid rgb(219, 192, 35);
+  }
+
+  label {
+    padding: 10px 20px;
+    line-height: 1.5rem;
+    font-weight: bold;
+    opacity: 0.5;
+  }
+}
