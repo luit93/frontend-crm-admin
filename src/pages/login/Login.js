@@ -23,7 +23,7 @@ const Login = () => {
               <BtnPrimary text="Login" />
             </div>
             <div className="form-bottom text-end">
-              New here? <a href="/">Register</a>
+              New here? <a href="/register">Register</a>
             </div>
           </form>
         </div>

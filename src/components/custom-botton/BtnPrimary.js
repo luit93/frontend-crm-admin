@@ -8,10 +8,12 @@ export const BtnPrimary = ({ text }) => {
   );
 };
 
-export const BtnOutline = ({ text }) => {
+export const BtnOutline = ({ text, ...rest }) => {
   return (
     <div>
-      <button className="btn-outline">{text}</button>
+      <button className="btn-outline" {...rest}>
+        {text}
+      </button>
     </div>
   );
 };
