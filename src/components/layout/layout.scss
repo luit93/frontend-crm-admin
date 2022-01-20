@@ -1,0 +1,64 @@
+.layout {
+  background: rgb(212, 184, 24);
+}
+.header {
+  background: blue;
+  min-height: 2rem;
+  color: white;
+  padding: 1rem 0;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+}
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  background: violet;
+  color: rgb(233, 201, 21);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-menu ul li {
+  margin-left: 1rem;
+}
+.main {
+  min-height: 90vh;
+  display: flex;
+  //   background: #000;
+}
+aside {
+  width: 25%;
+  background: yellow;
+}
+
+.content {
+  background: cyan;
+  width: 60%;
+  //   display: flex;
+  //   justify-content: center;
+  padding: 1rem;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background: coral;
+  min-height: 100px;
+}
